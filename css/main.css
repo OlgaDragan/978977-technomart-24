@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-position: top center;
+}
+.main-header-logo{
+  position: absolute;
+  left: 130px;
+  top: -4px;
+  width: 220px;
+  height: 51px;
+  z-index: 228;
+}
+a {
+  text-decoration: none;
+}
+
+
+.header{
+  font-size: 16px;
+  font-family: "Cuprum";
+  color: rgb(238, 54, 67);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 183px;
+  top: 114px;
+  z-index: 218;
+}
+.main-navigation{
+  width: 100%;
+}
+.main-line{
+  background-color: #293449;
+  position: absolute;
+  left: -40px;
+  top: 0px;
+  width: 100%;
+  height: 42px;
+  z-index: 219;
+}
+
+/*img src="img/icon-search.svg"*/
+.icon_search {
+  background: url("icon-search.svg");
+  position: absolute;
+  left: 367px;
+  top: 12px;
+  width: 17px;
+  height: 17px;
+  z-index: 227;
+}
+/*img src="img/icon-bookmark.svg"*/
+.icon_bookmark {
+  background-image: url("img/icon-bookmark.svg");
+  opacity: 0.302;
+  position: absolute;
+  left: 637px;
+  top: 12px;
+  width: 14px;
+  height: 16px;
+  z-index: 225;
+}
+
+.look {
+    font-size: 17px;
+    font-family: "Cuprum";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    top: 11px;
+    z-index: 226;
+  }
+.bookmarks{
+  font-size: 17px;
+  font-family: "Cuprum";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 650px;
+  top: 11px;
+  z-index: 224;
+}
+.shopping-cart{
+  font-size: 17px;
+  font-family: "Cuprum";
+  color: rgb(255, 255, 255);
+  line-height: 1.059;
+  text-align: left;
+  position: absolute;
+  left: 819.49px;
+  top: 12.499px;
+  z-index: 222;
+}
+.order{
+  font-size: 17px;
+  font-family: "Cuprum";
+  color: rgb(255, 255, 255);
+  line-height: 1.059;
+  text-align: left;
+  position: absolute;
+  left: 939.354px;
+  top: 12.499px;
+  z-index: 221;
+}
+
+.line{
+  background-color: #f3f7f9;
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  z-index: 198;
+}
+.tagline{
+  font-size: 16px;
+  font-family: "Cuprum";
+  color: rgb(238, 54, 67);
+  font-style: italic;
+  line-height: 1.438;
+  text-align: left;
+  position: absolute;
+  left: 182.52px;
+  top: 113.221px;
+  z-index: 218;
+}
+/*phone{
+  color: #ffffff;
+  position: absolute;
+  left: 446px;
+  top: 84px;
+  width: 278px;
+  height: 53px;
+  z-index: 214;
+}*/
+.phone{
+  background-color: #f3f7f8;
+  border: 3px solid #ffffff;
+  font-size: 21px;
+  font-family: "Cuprum";
+  color: rgb(238, 54, 67);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 525px;
+  top: 125px;
+  z-index: 216;
+}
+.header-contacts{
+  font-size: 14px;
+  font-family: "Cuprum";
+  color: rgb(50, 66, 92);
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 416.969px;
+  top: 163.128px;
+  width: 250px;
+  height: 13px;
+  z-index: 215;
+}
+.login-link{
+  font-size: 21px;
+  font-family: "Cuprum";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 836.37px;
+  top: 99.5px;
+  z-index: 212;
+}
+.second-line{
+
+    position: absolute;
+    left: 130px;
+    top: 196px;
+    width: 940px;
+    height: 64px;
+    z-index: 199;
+  }

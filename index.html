@@ -3,46 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <h1 class="visually-hidden">Техномарт</h1>
-        </a>
-        <ul class="user-navigation">
-          <li class="look"><img src="icon-search.svg">Поиск</li>
-          <li class="bookmarks"><a href="bookmarks.ru"><img src="icon-bookmark.svg">Закладки</a></li>
-          <li class="shopping-cart"><a href="shopping-cart.ru"><img src="cart-icon.svg">Корзина</a></li>
-          <li class="order"><a href="order.ru">Оформить заказ</a></li>
-        </ul>
-          <p>Интернет-магазин<br>
+         <a href="index.html" class="main-header-logo"><img src="img/header-logo.png"></a>
+         <div class="main-line">
+          <ul class="user-navigation">
+            <li class="look"><img scr="img/icon-search.svg">Поиск</li>
+            <li class="bookmarks"><a href="bookmarks.ru"><img src="img/icon-bookmark.svg">Закладки</a></li>
+            <li class="shopping-cart"><a href="shopping-cart.ru"><img src="img/cart-icon.svg">Корзина</a></li>
+            <li class="order"><a href="order.ru">Оформить заказ</a></li>
+          </ul>
+        </div>
+        <div class="line">
+              <p class="tagline">Интернет-магазин<br>
           строительных материалов<br>
           и инструментов</p>
-          <p class="header-contacts"><img src="icon-phone.svg">
-       Телефон: +7 (812) 555-05-55<br>
-        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
-          </p>
-         <ul class="user-navigation">
-          <li class="login-link"><img src="icon-login.svg">Войти</li>
-          <li class="register-link">Регистрация</li>
-        </ul>
-        <ul class="site-navigation">
-          <li><a href="main.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="special.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+             <p class="phone"><img src="img/icon-phone.svg">
+               Телефон: +7 (812) 555-05-55
+              <p class="header-contacts">
+               АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+              </p>
+          <ul class="user-navigation">
+            <li class="login-link"><img src="img/icon-login.svg">Войти</li>
+            <li class="register-link">Регистрация</li>
+         </ul>
+        <div class="second-line">
+          <ul class="site-navigation">
+              <li><a href="main.html">Главная</a></li>
+              <li><a href="company.html">Компания</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="special.html">Спецпредложения</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="container">
       <div class="features">
         <h2 class="visually-hidden">Каталог</h2>
         <ul class="feature-list">
-          <li class="feature-item">
+          <li class="feature-item"><img src="img/new-flag.png">
             <h3>Материалы</h3>
             <p>На любой вкус</p>
           </li>
@@ -67,7 +75,7 @@
       <div class="slider">
         <h2 class="visually-hidden">Слайдер</h2>
         <figure class="slider-content">
-         <a href="#"><img src="img/studio.jpg" width="" height="" alt="Дрели"></a>
+         <a href="#"><img src="img/perforators.jpg" width="" height="" alt="Дрели"></a>
         </figure>
         <span class="button-gallery-button-back"><</span>
         <span class="button-gallery-button-next">></span>
@@ -77,7 +85,7 @@
          <h3>Все популярные товары</h3>
          <ul class="">
           <li class="">
-            <img src="bosch-9000.jpg" alt="Bosch BFG 9000">
+            <img src="img/bosch-9000.jpg" alt="Bosch BFG 9000">
             <h3>Перфоратор BOSCH BFG 9000</h3>
             <p>
               <del>32500р</del>
@@ -87,7 +95,7 @@
             </p>
           </li>
           <li class="">
-            <img src="bosch-3000.jpg" alt="Bosch BFG 3000">
+            <img src="img/bosch-3000.jpg" alt="Bosch BFG 3000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <p>
               <del>22500р</del>
@@ -97,7 +105,7 @@
             </p>
           </li>
           <li class="">
-            <img src="bosch-6000.jpg" alt="Bosch BFG 6000">
+            <img src="img/bosch-6000.jpg" alt="Bosch BFG 6000">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <p>
               <del>30500р</del>
@@ -107,7 +115,7 @@
             </p>
           </li>
            <li class="">
-             <img src="bosch-2000.jpg" alt="Bosch BFG 2000">
+             <img src="img/bosch-2000.jpg" alt="Bosch BFG 2000">
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <p>
               <b>12500р</b>
@@ -120,28 +128,28 @@
          <h3>Все производители</h3>
          <ul class="">
           <li class="">
-            <img src="bosch-logo.jpg" alt="Bosch">
+            <img src="img/bosch-logo.jpg" alt="Bosch">
           </li>
           <li class="">
-            <img src="makita-logo.jpg" alt="Makita">
+            <img src="img/makita-logo.jpg" alt="Makita">
           </li>
           <li class="">
-            <img src="dewalt-logo.jpg" alt="DeWALT">
+            <img src="img/dewalt-logo.jpg" alt="DeWALT">
           </li>
            <li class="">
-            <img src="interskol-logo.jpg" alt="Интерскол">
+            <img src="img/interskol-logo.jpg" alt="Интерскол">
           </li>
           <li class="">
-            <img src="hitachi-logo.jpg" alt="Hitachi">
+            <img src="img/hitachi-logo.jpg" alt="Hitachi">
           </li>
           <li class="">
-            <img src="lg-logo.jpg" alt="LG">
+            <img src="img/lg-logo.jpg" alt="LG">
           </li>
           <li class="">
-            <img src="aeg-logo.jpg" alt="AEG">
+            <img src="img/aeg-logo.jpg" alt="AEG">
           </li>
           <li class="">
-            <img src="metabo-logo.jpg" alt="Metabo">
+            <img src="img/metabo-logo.jpg" alt="Metabo">
           </li>
         </ul>
       </div>
@@ -179,7 +187,7 @@
    <section class="contacts">
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-        <a class="button" href="map.html"><img src="map-small.jpg">Заблудились? Напишите нам!</a>
+        <a class="button" href="map.html"><img src="img/map-small.jpg">Заблудились? Напишите нам!</a>
       </section>
     </main>
     <footer class="main-footer">
@@ -211,9 +219,9 @@
         <p>© 2010–2019 Компания «Техномарт»<br>
            Все права защищены</p>
         <ul>
-          <li> <a class="social-button" href="#"><img src="vk-icon.svg">Вконтакте</a></li>
-          <li> <a class="social-button" href="#"><img src="fb-icon.svg">Фейсбук</a></li>
-          <li> <a class="social-button" href="#"><img src="insta-icon.svg">Инстаграм</a></li>
+          <li> <a class="social-button" href="#"><img src="img/vk-icon.svg">Вконтакте</a></li>
+          <li> <a class="social-button" href="#"><img src="img/fb-icon.svg">Фейсбук</a></li>
+          <li> <a class="social-button" href="#"><img src="img/insta-icon.svg">Инстаграм</a></li>
         </ul>
       </div>
         <p clsss="footer-mail">Обратная связь:<br>
