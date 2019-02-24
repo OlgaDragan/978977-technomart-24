@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -52,7 +52,11 @@
       </div>
       <div class="">
         <ul class="">
-           <h3>Фильтр</h3>
+          <div class="half-width">
+           <input type="text" id="text" name="text" value="Фильтр" readonly>
+           <label for="price">Цена</label>
+           <input type="range" id="price" neme="price" min="0" max="30000" step="1000"
+          </div>
            <h3>Сортировка</h3>
            <li>По цене</li>
            <li>По функционалу</li>
@@ -60,12 +64,15 @@
            <span class="menu-down">v</span>
         </ul>
       </div>
-      <div>
-        <h2 class="filter-menu">Цена</h2>
-        <h2 class="filter-menu">Производители</h2>
-        <ul class="choice">
-          <li class="choice">Bosch</li>
-          <li class="choice">Интерскол</li>
+      <fieldset>
+        <legend>Производители</legend>
+        <ul>
+          <li class="choice">
+          <input class="visually-hidden filter-input-checkbox" type="checkbox" name="bosch" id="bosch" checked>
+          <label for="bosch">Bosch</label>
+        </li>
+          <li class="choice">
+            Интерскол</li>
           <li class="choice">Makita"</li>
           <li class="choice">DeWALT"</li>
           <li class="choice">Hitachi</li>
