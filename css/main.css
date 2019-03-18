@@ -1432,6 +1432,20 @@ background-color: #5fbb2d;
   padding-left: 40px;
   margin: 0;
 }
+.copyright-footer a:hover,
+.copyright-footer a:focus{
+  text-decoration: underline;
+}
+.copyright-footer a:active{
+  color: #ee3643;
+}
+.footer-mail a:hover,
+.footer-mail a:focus{
+  text-decoration: underline;
+}
+.footer-mail a:active{
+  color: #ee3643;
+}
 /*--------Всплывающие окна---------*/
 
 
@@ -1444,9 +1458,6 @@ background-color: #5fbb2d;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
 }
 
-.modal-show {
-  display: block;
-}
 
 .modal-login{
   display: none;
@@ -1834,7 +1845,9 @@ background-color: #5fbb2d;
   width: 940px;
   padding: 0;
   margin: 0;
+  margin-top: 23px;
   justify-content: space-between;
+
 
 }
 .side-right{
@@ -2115,7 +2128,7 @@ background-color: #5fbb2d;
   display: inline-block;
   width: 218px;
   height: 318px;
-  margin-right: 12px;
+  margin-right: 14px;
   vertical-align: top;
   margin-bottom: 20px;
   font-size: 18px;
